@@ -1,5 +1,5 @@
-# 1、Weblogic 1day
-CVE_2020_2546 CVE-2020-2915 CVE-2020-2801  CVE-2020-2798  CVE-2020-2883 CVE-2020-2884 CVE-2020-2950 WebLogic T3 payload exploit pot python3
+# 1、Weblogic RCE exploit
+CVE_2020_2546 CVE-2020-2915 CVE-2020-2801  CVE-2020-2798  CVE-2020-2883 CVE-2020-2884 CVE-2020-2950 WebLogic RCE T3 payload exploit poc python3
 
 # 2、exploit
 - GIOP + send bind (CVE-2020-2555 or others)
