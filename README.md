@@ -1,6 +1,16 @@
 # Weblogic 1day
 CVE_2020_2546 CVE-2020-2915 CVE-2020-2801  CVE-2020-2798  CVE-2020-2883 CVE-2020-2884 CVE-2020-2950 WebLogic T3 payload exploit pot python3
 
+# exploit
+- GIOP + send bind (CVE-2020-2555 or others)
+- GIOP + send jta (rmi or others)
+- GIOP + send jta + ssrf
+- T3 + send jta
+- T3 + send jta + ssrf
+
+#### rmi server,see
+https://github.com/hktalent/CVE-2020-2551
+
 ### code n1
 ```
 MVEL.compileExpression
