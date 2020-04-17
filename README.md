@@ -2,13 +2,13 @@
 CVE_2020_2546 CVE-2020-2915 CVE-2020-2801  CVE-2020-2798  CVE-2020-2883 CVE-2020-2884 CVE-2020-2950 WebLogic RCE T3 payload exploit poc python3
 
 # 2、exploit
-- GIOP + send bind (CVE-2020-2555 or others)
+- GIOP + send bind (CVE-2020-2555、CVE-2019-2888<XXE>、CVE-2019-2888<XXE+SSRF> or others)
 - GIOP + send jta (rmi or others)
-- GIOP + send jta + ssrf
+- GIOP + send jta + SSRF
 - T3 + send jta
-- T3 + send jta + ssrf
+- T3 + send jta + SSRF
 - T3 + send XXE
-- T3 + send XXE + ssrf
+- T3 + send XXE + SSRF
 
 #### 2.1、rmi server,see
 - don't use org.mozilla.classfile.DefiningClassLoader
