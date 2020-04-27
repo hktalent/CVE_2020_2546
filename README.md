@@ -56,6 +56,8 @@ weblogic.iiop.IIOPRemoteRefd,ObjectMessageImpl
 
 # 4、CVE-2020-2546 payload
 #### 批量一波，成功无数
+<img width="815" alt="image" src="https://user-images.githubusercontent.com/18223385/80388926-0cac7480-88dd-11ea-9531-cadcc688c8a3.png">
+
 <img width="621" alt="image" src="https://user-images.githubusercontent.com/18223385/75693161-8c550300-5ce1-11ea-9c28-3e81a6c72d28.png">
 
 
