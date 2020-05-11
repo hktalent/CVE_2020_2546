@@ -53,6 +53,8 @@ IORDelegate ior = Gadgets.createMemoitizedProxy(Gadgets.createMap("pwned", new J
 ```
 weblogic.iiop.IIOPRemoteRefd,ObjectMessageImpl
 ```
+### 3.5、CVE-2020-2883 code
+https://github.com/hktalent/CVE_2020_2546/issues/4
 
 # 4、CVE-2020-2546 payload
 #### 批量一波，成功无数
