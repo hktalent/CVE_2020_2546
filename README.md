@@ -56,6 +56,9 @@ weblogic.iiop.IIOPRemoteRefd,ObjectMessageImpl
 ### 3.5、CVE-2020-2883 code
 https://github.com/hktalent/CVE_2020_2546/issues/4
 
+### 2883
+<img width="837" alt="image" src="https://user-images.githubusercontent.com/18223385/84259459-16b3cb00-ab4b-11ea-8422-ea7d42365895.png">
+
 # 4、CVE-2020-2546 payload
 #### 批量一波，成功无数
 <img width="815" alt="image" src="https://user-images.githubusercontent.com/18223385/80388926-0cac7480-88dd-11ea-9531-cadcc688c8a3.png">
